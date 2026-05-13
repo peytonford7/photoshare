@@ -1,0 +1,180 @@
+{% extends 'layout/main.html' %}
+
+{% load static%}
+{% block content %}
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="{% static 'images/picture-1.jpg' %}"
+                                alt="Card image"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Classic Car
+                                </h5>
+                                <p class="card-text">
+                                    The classic car wraps the frame with deep reflections, 
+                                    sharp body lines, and a stance that feels iconic. Soft 
+                                    light rolls across the paint while every detail carries 
+                                    the kind of character that only time can create.
+                                </p>
+                                <a
+                                    class="btn btn-primary"
+                                    href="#"
+                                    role="button"
+                                >
+                                    View
+                                </a>
+                                <a
+                                    class="btn text-primary"
+                                    href="#"
+                                    role="button"
+                                >
+                                    Album
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="{% static 'images/picture-2.jpg' %}"
+                                alt="Card image"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Monument Valley
+                                </h5>
+                                <p class="card-text">
+                                    Region of the Colorado Plateau characterized by a cluster 
+                                    of vast sandstone buttes, the largest reaching 1,000 ft 
+                                    above the valley floor. The area is known most for its stunning 
+                                    natural beauty.
+                                </p>
+                                <a
+                                    class="btn btn-primary"
+                                    href="#"
+                                    role="button"
+                                >
+                                    View
+                                </a>
+                                <a
+                                    class="btn text-primary"
+                                    href="#"
+                                    role="button"
+                                >
+                                    Album
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="{% static 'images/picture-3.jpg' %}"
+                                alt="Card image"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Ready to Create
+                                </h5>
+                                <p class="card-text">
+                                    The laptop sits open in the center of the desk being used. Warm lighting and the dark 
+                                    wood give the whole scene a calm late-night feel, 
+                                    like someone’s in the middle of editing photos or writing code.
+                                </p>
+                                <a
+                                    class="btn btn-primary"
+                                    href="#"
+                                    role="button"
+                                >
+                                    View
+                                </a>
+                                <a
+                                    class="btn text-primary"
+                                    href="#"
+                                    role="button"
+                                >
+                                    Album
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br /><hr />
+        <div class="row">
+            <div class="col-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="/">Home</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="/about">About</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="/contact">Contact</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4">
+                <nav aria-label="Pagination">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a
+                                class="page-link"
+                                href="#"
+                            >
+                                Previous
+                            </a>
+                        </li>
+                        <li
+                            class="page-item active"
+                            aria-current="page"
+                        >
+                            <span class="page-link">
+                                1
+                            </span>
+                        </li>
+                        <li class="page-item">
+                            <a
+                                class="page-link"
+                                href="#"
+                            >
+                                2
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a
+                                class="page-link"
+                                href="#"
+                            >
+                                3
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a
+                                class="page-link"
+                                href="#"
+                            >
+                                Next
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
